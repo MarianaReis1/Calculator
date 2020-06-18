@@ -1,0 +1,55 @@
+*  {
+    margin: 0;
+   
+  }
+  .grid {
+    display: grid;
+    grid-gap: 10px;
+    width: 430px;
+    min-height: 380px;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-template-columns: 100px 100px 100px 100px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: whitesmoke;
+  }
+  
+  #sum {
+    background-color: orange;
+  }
+  
+  #sub {
+    background-color: purple;
+  }
+  
+  #mult {
+    background-color: green;
+  }
+  
+  #divi {
+    background-color: rgb(217, 219, 87);
+  }
+  
+  #clear {
+    background-color: red;
+  }
+  
+  #equals {
+    /*! background-color: rgb(22, 134, 65); */
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }

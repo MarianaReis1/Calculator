@@ -3,12 +3,6 @@
    
 }
 
-.content {
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-
 .grid {
     display: grid;
     grid-gap: 10px;
@@ -17,6 +11,7 @@
     background-color: #2196F3;
     padding: 10px;
     grid-template-columns: 100px 100px 100px 100px;
+    margin: auto;
 }
   
 .grid-item {

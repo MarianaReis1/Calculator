@@ -1,18 +1,24 @@
 *  {
     margin: 0;
    
-  }
-  .grid {
+}
+
+.content {
+    display: block;
+    margin: auto;
+}
+
+.grid {
     display: grid;
     grid-gap: 10px;
-    width: 430px;
-    min-height: 380px;
+    width: 435px;
+    height: 700px;
     background-color: #2196F3;
     padding: 10px;
     grid-template-columns: 100px 100px 100px 100px;
-  }
+}
   
-  .grid-item {
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px 10px;
@@ -20,7 +26,7 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     cursor: pointer;
-  }
+}
   
   #result {
     grid-column-start: 1;
